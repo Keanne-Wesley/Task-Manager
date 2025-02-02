@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/add_task"
+        android:icon="@drawable/ic_add_task"
+        android:title="Add Task" />
+    <item
+        android:id="@+id/view_tasks"
+        android:icon="@drawable/ic_view_tasks"
+        android:title="Tasks" />
+    <item
+        android:id="@+id/gestures"
+        android:icon="@drawable/ic_gestures"
+        android:title="Gestures" />
+</menu>
