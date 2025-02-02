@@ -1,0 +1,19 @@
+class AddTaskFragment : Fragment() {
+    private lateinit var taskInput: EditText
+    private lateinit var addButton: Button
+
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        val view = inflater.inflate(R.layout.fragment_add_task, container, false)
+        taskInput = view.findViewById(R.id.task_input)
+        addButton = view.findViewById(R.id.add_button)
+
+        addButton.setOnClickListener {
+            val task = taskInput.text.toString()
+            // Logic to add task to a list or database
+        }
+        return view
+    }
+}
